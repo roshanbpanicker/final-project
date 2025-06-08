@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <meta name="description" content="Welcome to the personal portfolio of Your Name, a web developer specializing in front-end technologies.">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">ROSHAN B PANICKER</h1>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h2>Hello, I'm <span>Roshan B Panicker</span></h2>
+      <p>A passionate <strong>Web Developer</strong> crafting modern and responsive web experiences.</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="photo.jpg" alt="Roshan" class="profile-pic"/>
+        <div>
+          <p>
+            I’m a passionate and dedicated <strong>Web Developer</strong> with a strong foundation in building responsive, high-performance websites and applications.
+            My expertise includes crafting clean HTML5 structures, writing modern CSS for visually appealing designs, and using JavaScript to create interactive user experiences.
+          </p>
+          <p>
+            I believe in continuous learning, user-focused design, and creating websites that solve real problems.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skill">
+        <label>HTML</label>
+        <div class="skill-bar">
+          <div class="skill-level html">90%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <label>CSS</label>
+        <div class="skill-bar">
+          <div class="skill-level css">80%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <label>JavaScript</label>
+        <div class="skill-bar">
+          <div class="skill-level js">60%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Have a question or want to work together? Send me a message or connect through social media!</p>
+
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="social-buttons">
+        <a href="https://www.linkedin.com/in/roshan-b-panicker" target="_blank" class="social-btn linkedin">Connect on LinkedIn</a>
+        <a href="https://www.instagram.com/roshan_b_panicker" target="_blank" class="social-btn instagram">Message on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Roshan B Panicker. All rights reserved.</p>
+      <p>
+        <a href="https://github.com/roshanbpanicker" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/roshan-b-panicker" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
