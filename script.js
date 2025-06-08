@@ -1,4 +1,4 @@
-window.alert("Welcome to My Portfolio!This website is best viewed on a desktop for optimal layout and functionality.(Desktop Site)");
+window.alert("Welcome to My Portfolio!For the Best Experience, Please view this website on a desktop device.");
 // Contact form submission handler
 document.getElementById('contact-form').addEventListener('submit', function (e) {
   e.preventDefault();
