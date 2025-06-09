@@ -1,3 +1,4 @@
+
 /* Reset & Base Styles */
 * {
   margin: 0;
@@ -173,6 +174,12 @@ header {
 .skill-level.js {
   width: 70%;
   background-color: #f0db4f;
+  color: #000;
+}
+
+.skill-level.c {
+  width: 50%;
+  background-color: #13dc71;
   color: #000;
 }
 
